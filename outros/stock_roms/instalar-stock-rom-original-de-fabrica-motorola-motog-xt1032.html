@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SO. IN ROMS - Instalação de firmware</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+</head>
+
+<body class="idsr">
+	<div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col4">
+					<h1 class="logo2" title="Softwares em roms."><a href="../../index.html">SO. IN ROMS</a></h1>
+				</div>
+				<div class="coluna col8">
+					<nav>
+						<ul class="inline menu1 sem-marcador">
+							<li><a href="../../index.html">INICIO</a></li>
+							<li><a href="../../firmwares.html">FIRMWARES</a></li>
+							<li><a href="../../outros.html">OUTROS</a></li>
+							<li><a href="../../Sobre.html">SOBRE</a></li>
+							<li><a href="../../Contato.html">CONTATO</a></li>
+						</ul>
+					</nav>
+				</div>
+				</div>
+			</header>
+		</div>
+	</div>
+	<div class="linha">
+		<div class="todoartigos">
+			<section>
+			<div class="containerartigos">
+
+			<h1 style="padding: 50px; font-size: 50px; margin-bottom: 100px; font-weight: bold; color: #fff; font-family: monospace;">
+			Instalar stock rom original de fábrica no Moto G XT1032</h1>
+
+			<p class="voltar2" title="Seção Instalação de Stock Roms"><a href="../artigos_stock.html">VOLTAR</a></p>
+
+			<div class="polaroidartigos">
+				<img src="../../img/motorola/xt1032.jpg">
+				<p><span style="font-size: 30px;">S</span>e por acaso seu dispositivo entrou em <strong>Loop infinito, boot infinito ou simplesmente deseja retornar a versão original do sistema</strong> esse é o tutorial certo que você tanto procurava. Esse procedimento servirá não só para voltar a uma versão de sistema anterior mas como resolver erros de sistema como é o caso do irritante <strong>" pop up "</strong> que apresenta-se como <strong>O Processo.System</strong> parou e também para remover virus.</p>
+				<p>Para esse tutorial você irá prescisar de -  <a href=""><span style="background: #8e44ad; color: #fff; border-radius: 4px; padding: 4px 10px 4px 10px" title="Clique em mim para baixar o adb+fastboot">Adb + Fastboot</a> <a href=""><span style="background: #f1c40f; color: #fff; border-radius: 4px; padding: 4px 10px 4px 10px" title="Clique em mim para baixar a stock">Firmware Moto G XT1032</span></a></a></p>
+				<p>Então vamos deixar de enrolação e partir para o tutorial!</p>
+				<hr>
+				<br>
+				<ol>
+					<p><span style="font-size: 20px; font-weight: bold; margin-left: -40px;">No PC</span></p>
+
+					<li>Primeiramente baixe os 2 arquivos listados acima e os extraia em algum diretório do seu Pc.</li>
+					<li>Após extraí-los abra a pasta <strong>Adb + Fastboot</strong> e copie os arquivos que nela contém.</li>
+
+					<li>Os arquivos que acabamos de copiar, cole na pasta <strong>soinroms_MOTOG_XT1032</strong>.</li>
+
+					<li>Feito o passo anterior, na mesma pasta que acabamos de colar, clique ao mesmo tempo na segunda tecla do mouse e na tecla <span style="background: #1f3258; color: #fff; border-radius: 4px; padding: 4px 10px 4px 10px;">Shift</span> do pc então escolha <strong>Abrir janela de comando aqui</strong>.</li>
+					<li>Feito o passo anterior aparecerá uma janela preta _ CMD do windows, agora é hora de partir para o celular.</li>
+
+					<p><span style="font-size: 20px; font-weight: bold; margin-left: -40px;">No Celular</span></p>
+					<li><span style="background: #FA8072; color: #fff; border-radius: 4px; padding: 2px 8px 2px 8px">-</span> Desligue o aparelho.</li>
+					<li>Pressione simultanêamente as teclas <strong><span style="border: 1px solid #aa00ff; padding: 3px; border-radius: 4px;">POWER + VOL -</span></strong> por aproximadamente 3s e solte o botão <strong><span style="border: 1px solid #aa00ff; padding: 3px; border-radius: 4px;">Power</span></strong> para entrar no menu <strong>Fastboot</strong>.</li>
+					<li>Conecte o Moto G ao pc.</li>
+					<li>Agora informe essas linhas de comando na janela CMD que abrirá em seu Pc.</li>
+					<div class="lista">
+						<p> mfastboot.exe flash partition gpt.bin</p>
+						<p> mfastboot.exe flash motoboot motoboot.img</p>
+						<p> mfastboot.exe flash logo logo.bin</p>
+						<p> mfastboot.exe flash boot boot.img</p>
+						<p> mfastboot.exe flash recovery recovery.img</p>
+						<p> mfastboot.exe flash system system.img_sparsechunk.0</p>
+						<p> mfastboot.exe flash system system.img_sparsechunk.1</p>
+						<p> mfastboot.exe flash system system.img_sparsechunk.2</p>
+						<p> mfastboot.exe flash system system.img_sparsechunk.3</p>
+						<p> mfastboot.exe flash modem NON-HLOS.bin</p>
+						<p> mfastboot.exe erase modemst1</p>
+						<p> mfastboot.exe erase modemst2</p>
+						<p> mfastboot.exe flash fsg fsg.mbn</p>
+						<p> mfastboot.exe erase cache</p>
+						<p> mfastboot.exe erase userdata</p>
+						<p> mfastboot reboot</p>
+					</div>
+					<img src="../../img/espera.png" style="margin-top: 30px; width: 70px;  box-shadow: 0 400px 8000px 0 rgba(0, 0, 0, 0.2);">
+					<p>Após esta última linha de comando seu dispositivo já irá reiniciar, então vá beber um cafezinho enquanto o mesmo não inicia.</p>
+					<br>
+					<p style="font-size: 20px; font-weight: bold;">Ficou alguma dúvida? Obteve erro em algum dos procedimentos? Então fique livre a deixar seus comentários.</p>
+				</ol>
+			</div>
+			</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="espaço">
+	<p>@lanozubem</p>
+	</div>
+	
+	<div class="footer">
+		<div class="linha">
+			<footer>
+				<div class="coluna col12">
+					<span>&copy;Copyright 2017 - SO IN ROMS - Todos os direitos reservados</span>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

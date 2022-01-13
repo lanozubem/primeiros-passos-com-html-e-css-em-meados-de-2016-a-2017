@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Realize o desbloqueio do bootloader de qualquer Moto G - SO. IN ROMS</title>
+	<meta name="title" content="Realize o desbloqueio do bootloader de qualquer Moto G - SO. IN ROMS">
+	<meta name="description" content="Nada melhor do que personalizar o aparelho a seu modo não? Mas para isso é necessário que o desbloqueio do bootloader seja realizado, pois, sem esse método não haverá como realizar root, recovery-custom ou qualquer outro acesso de super-usuário que deseje. O procedimento para o mesmo é bastante fácil e funciona com praticamente todos os aparelhos da linha Moto apenas saiba que com esse método a garantia...">
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="../../logo.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="../../css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+</head>
+
+<body class="lanopagina">
+	<div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col4">
+					<h1 class="logo"><a href="../../index.html">SO. IN ROMS</a></h1>
+				</div>
+				<div class="coluna col8">
+					<nav>
+						<ul class="inline menu sem-marcador">
+					    	<li><a href="../../index.html">INICIO</a></li>
+							<li><a href="../../firmwares.html">FIRMWARES</a></li>
+							<li><a href="../../outros.html">OUTROS</a></li>
+							<li><a href="../../Sobre.html">SOBRE</a></li>
+							<li><a href="../../Contato.html">CONTATO</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+	</div>
+
+	<div class="linha pagina">
+		<article>
+
+			<h1>Como realizar desbloqueio de Bootloader em qualquer <span style="font-weight: bold; font-size: 40px;">moto</span> G, É ou X?</h1>
+ 
+				<img style="margin-bottom: 60px; width: 50%; box-shadow: none;" src="../../img/motorola/desbloqueio-de-bootloader-em-qualquer-aparelho-moto.jpg" alt="desbloqueio-de-bootloader-em-qualquer-aparelho-moto.jpg" />
+
+					<p>Nada melhor do que personalizar o aparelho a seu modo não? Mas para isso é necessário que o desbloqueio do bootloader seja realizado, pois, sem esse método não haverá como realizar root, recovery-custom ou qualquer outro acesso de super-usuário que deseje. O procedimento para o mesmo é bastante fácil e funciona com praticamente todos os aparelhos da linha Moto apenas saiba que com esse método a garantia do seu aparelho será anulada.</p> 
+					<br>
+			
+					<p style="font-size: 25px;">Para esse tutorial você irá precisar:</p>  
+
+					<ol>
+						<li style="margin-bottom: 30px;"><a href="http://ouo.io/AMGGH3">ARQUIVO FASTBOOT e ADB</a></li>
+						<li style="margin-bottom: 30px;"><a href="http://ouo.io/AqNnfv" title="MOTOROLA DEVICE MANAGER V_2.5.4">DRIVERS USB MOTOROLA</a></li>
+						<li style="margin-bottom: 30px;"><a href="http://ouo.io/2JS9Uq" title="Baixar logo de inicialização">ARQUIVO LOGO MODIFICADO</a></li>
+					</ol>
+
+					<p style="color: red;"><span class="jdv">#</span> Vale lembrar que esse procedimento irá <em>apagar</em> a memória interna do aparelho, por isso recomendamos que mantenha um “backup” do seu aparelho em um lugar seguro.</p>
+
+					<p><em>Após ter baixado os arquivos listados acima, instale os <strong>Drives USB da Motorola, minimal_adb_fastboot_v1.1.3_setup.exe</strong> e extraia o arquivo de logo modificado.</em></p>
+			
+					<br>
+					<ol>
+						<li>
+							<p>Ao realizar a instalação do Minima adb <strong>clique na caixa de seleção para criar atalho na tela inicial</strong>, feito isso vá a aréa de trabalho do seu pc e inicie o <strong>Minimal ADB and Fastboot</strong>.</p>
+
+							<p>Vamos por o aparelho em modo Fastboot, pressione a tecla Power e o volume - por 3 segundos e as solte, após isso  Conecte o aparelho ao PC.</p>
+							<p>No prompt de comando digite: <strong style="color: red;">fastboot oem get_unlock_data</strong> </p>
+						</li>
+
+						<li>
+							<img src="../../img/dicas/motorola/bootloader/passo2.png" style="width: 400px;">
+							<p>O prompt do windows irá retornar 5 linhas de código que você deverá copia-los e colar em um editor de texto. <br><br>#Dica: Para selecionar todas as linhas de código pressione a tecla direita do mouse apartir da última linha de código até a primeira, então pressione a tecla enter.</p>
+						</li>
+
+						<li>
+							<p>No editor de texto deve-se colar esses códigos e remover o espaçamento e o nome "Bootloader" que há entre cada linha para que assim o código ocupe apenas um lugar.</p>
+
+							<img src="../../img/dicas/motorola/bootloader/passo3.png">
+
+							<p>Bem este é o código do bootloader. Agora Você deve acessar o site da Motorola clicando neste <a href="https://accounts.motorola.com/ssoauth/login?TARGET=https://motorola-global-portal.custhelp.com/cc/cas/sso/redirect/standalone%2Fbootloader%2Funlock-your-device-b" target="_blank" style="background: red; color: #fff; border-radius: 1px; padding: 2px">Link</a> para fazermos a utilização do mesmo.</p>
+						</li>
+
+						<li>
+							<img style="width: 400px;" src="../../img/dicas/motorola/bootloader/passo4.png">
+							<p>Ao abrir o site da Motorola faça login para prosseguir, se não tiver uma conta da mesma utilize uma Google clicando no retângulo abaixo da página de login.</p>
+						</li>
+
+						<li>
+							<img src="../../img/dicas/motorola/bootloader/passo5.png">
+							<p>Após o login cole o código copiado para que o mesmo seja aceito, então clique  em <strong>“Can my device be unlocked?”</strong>. Se o código for aceito, será gerado um contrato de termos onde você concordará que leu e está ciente que a garantia do seu aparelho será anulada.</p>
+						</li>
+
+						<li>
+							<img src="../../img/dicas/motorola/bootloader/passo6.png">
+							<p>Após isso, basta clicar em <strong>“Request unclock key”</strong>. A chave será enviada para o email que utilizamos no login do site.</p>
+						</li>
+
+						<li>
+							<p>Ao receber a chave volte ao prompt de comando e execute o código: <strong style="color: red;">fastboot oem unlock</strong> [chave]</p>
+							<p>No lugar da <strong>[chave]</strong> insira os 20 caracteres que recebeu da Motorola. Agora de enter e o seu dispositivo já ira reiniciar com o bootloader desbloqueado.</p>
+						</li>
+
+						<li>
+							<img src="../../img/dicas/motorola/bootloader/passo7.png" style="width: 250px;">
+							<p>Para removermos este aviso prossiga com todas as configurações e desligue o aparelho. Com ele desligado ponha-o em modo Fastboot e o conecte no pc.</p>
+							<p>Na área de trabalho clique com a tecla esquerda do mouse sobre <em>Minimal ADB and Fastboot</em> e escolha <strong>Abrir local do arquivo</strong> feito isso Passe o arquivo logo.bin para esse local e Volte para o prompt do Windows que ficou aberto. Execute os seguintes comandos:</p>
+							<ol style="color: red;">
+								<li><strong>fastboot flash logo logo.bin</strong></li>
+								<li><strong>fastboot reboot</strong></li>
+							</ol>
+						</li>
+
+						<li>
+							<img src="../../img/dicas/motorola/bootloader/passo8.png" style="width: 200px;">
+							<p>Pronto agora você não será mais encomodado por esse aviso e o seu smartphone está pronto para resceber <strong>Root, Recovery-Custom, Custom-rom e muito mais</strong>.</p>
+						</li>
+
+					</ol>
+
+					<p>Então se obteve problemas com alguns dos passos listados acima, fique tranquilo a deixar os seus comentários logo abaixo.</p>
+		</article>
+	</div>
+
+	
+	<section class="rsociais">
+		<p class="hardresetsocial"></p><br>
+
+			<div class="rede facebook">
+				<img src="../../img/social/facebook.png" class="icon">
+			</div>
+			<div class="rede twitter">
+				<img src="../../img/social/twitter.png" class="icon">
+			</div>
+			<div class="rede instagram">
+				<img src="../../img/social/instagram.png" class="icon">
+			</div>
+			<div class="rede snap">
+					<img src="../../img/social/snap.png" class="icon">
+			</div>
+			<div class="rede plus">
+				<img src="../../img/social/plus.png" class="icon">
+			</div>
+			<div class="rede youtube">
+				<img src="../../img/social/youtube.png" class="icon">
+			</div> 
+
+	</section>
+
+	<p>@lanozubem</p>
+
+	<div class="footer2">
+		<div class="linha">
+			<footer>
+				<div class="coluna col12">
+					<span>&copy;Copyright 2017 - SO. IN ROMS - Todos os direitos reservados</span>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

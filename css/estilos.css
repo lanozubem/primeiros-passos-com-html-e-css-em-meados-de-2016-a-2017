@@ -1,0 +1,2923 @@
+section.rsociais p:before{
+	content: 'Siga-nos, Encontre-nos e Veja-nos nas redes sociais :)';
+}
+
+
+section.DicasEmDestaque h1{
+	font-size: 40px;
+	color: #000;
+	background: linear-gradient(-90deg, #ECECEC, yellow);
+	padding: 20px;
+	width: 970px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+/* NÃO USADO AINDA*/
+
+div.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+div.tooltip span.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+div.tooltip span.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+div.tooltip:hover span.tooltiptext {
+    visibility: visible;
+}
+
+/* NÃO USADO AINDA*/
+
+
+
+
+
+/*decoração das firmwares lista*/
+
+a li span.decal{
+	background: #12C8FF;
+	color: #fff;
+	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+	border-radius: 1px;
+	padding: 2px;
+	font-family: cursive;
+}
+
+a li span.decasus{
+	background: #16a085;
+	color: #fff;
+	font-family: cursive;
+	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+	border-radius: 1px;
+	padding: 2px;
+}
+
+
+a li span.decblu{
+	background: #34495e;
+ 	color: #fff;
+ 	font-family: cursive;
+ 	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+ 	border-radius: 1px;
+ 	padding: 2px;
+}
+
+a li span.decsam{
+	background: #FCF9F9;
+	color: #8f8787;
+	font-family: cursive;
+	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+	border-radius: 1px;
+	padding: 2px;
+}
+
+a li span.declg{
+	background: #DC143C;
+	color: #FFEBEB;
+	font-family: cursive;
+	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+	border-radius: 1px;
+	font-family: cursive;
+	padding: 2px;
+}
+
+a li span.decmoto{
+	background: #B8860B;
+	color: #fff;
+	font-family: cursive;
+	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+	border-radius: 1px;
+	padding: 2px;
+}
+
+a li span.deccce{
+	background: #20B2AA;
+	color: #E9E9E5;
+	font-family: cursive;
+	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+	border-radius: 1px;
+	padding: 2px;
+}
+
+a li span.declenovo{
+	background: #27ae60;
+	color: #fff;
+	font-family: cursive;
+	box-shadow: 58px 10px 49px 0px rgba(0,0,0,0.75);
+	border-radius: 1px;
+	padding: 2px;
+}
+
+/**/
+
+span.cpquenas{
+	border:1px solid #c0c0c0;
+	border-radius: 1px;
+	padding: 1px;
+}
+
+
+ol.cor a li{
+	color: #000;
+	font-size: 15px;
+	font-family: monospace;
+	list-style: decimal;
+	transition: 1s;
+	font-weight: bold;
+}
+
+ol.cor a li:active{
+	list-style: square;
+	font-weight: bolder;
+}
+
+span.q{
+	border: 1px solid #000;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+/*Hard reset escola da marca fabricante*/
+ol.fdc li{
+	width: 20%;
+	background-color:#fff;
+	margin-left: 70px;
+	margin-right: 48px;
+	margin-top: 10PX;
+	color: #191970;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0px;
+	-webkit-transition: 0.2s linear 0.1s;
+}
+
+.textos img{
+	width: 5%;
+	margin-left: 60%;
+	margin-bottom: -10px;
+}
+
+ol.fdc li:hover{
+	box-shadow: -18px 14px 35px -8px rgba(0,0,0,0.75);
+	background: #333;
+	color: #F0F0F0;
+}
+
+ol.fdc li p{
+	padding: 20px;
+	font-family: monospace;
+	text-align: center;
+	transition: 0.1s;
+}
+
+ol.fdc li p:hover{
+	color: #fff;
+	font-weight: bold;
+	transition: 0.3s;
+	font-weight: bold;
+}
+
+ol.fdc {
+	margin-top: 10px;
+	padding: 0;
+}
+
+ol.fdc a{
+	list-style: none;
+}
+
+body.opcional{
+	background: radial-gradient(#3CB371,#1E90FF,#2E8B57);
+}
+
+h1.mudar{
+	text-align: left;
+	font-size: 30px;
+	width: auto;
+	margin: 0 auto 50px auto;
+	font-family: monospace;
+	text-transform: uppercase;
+}
+
+ol.fdc1 li{
+  	width: 20%;
+  	background-color:#00FA9A;
+  	margin-left: 70px;
+  	margin-right: 48px;
+  	margin-top: 10PX;
+  	display: inline-block;
+}
+
+ol.fdc1 li:hover{
+	box-shadow: 0px 0px 30px 5px rgba(50,50,50,0.45);
+	background: #00FF7F;
+	color: #000;
+}
+
+ol.fdc1 li p{
+	padding: 30px;
+	color: #000;
+	text-align: center;
+}
+
+ol.fdc1 li p:hover{
+	color: #000;
+	font-weight: bold;
+}
+
+ol.fdc1 {
+	margin-top: 10px;
+	padding: 0;
+}
+
+ol.fdc1 a{
+	list-style: none;
+}
+
+body.opcional{
+	background: radial-gradient(#3CB371,#1E90FF,#2E8B57);
+	font-family: 'Opens' sans-serif;
+}
+
+/*Localizador de seção*/
+
+.opcoes{
+	width: 250px;
+	box-shadow: 0px 0px 5px 0px rgba(50,50,50,0.45);
+}
+
+.opcoes ol{
+	background:#2c3e50;
+}
+
+.opcoes ol li{
+	display: inline-block;
+}
+
+.opcoes ol li a{
+	font-size: 10px;
+	color: #bdc3c7;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/**/
+
+img[alt]{
+	text-transform: uppercase;
+}
+
+/*Artigos de stock roms de fábrica*/
+
+.lista ol li p{
+	background: linear-gradient(-70deg, #6a00ff, #3498db, #808080);
+	text-align: justify;
+	border-radius: 2px;
+	width: 500px;
+	height: 10px;
+	padding: 15px;
+	color: #ebebeb;
+	margin-left: 101px;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+.lista ol li{
+	list-style: none;
+}
+
+div.lista2 img{
+
+}
+
+li div.lista2 p{
+	background: #00FA9A;
+	text-align: left;
+	padding: 5px;
+	color: #000;
+	font-size: 15px;
+	margin: 5px auto;
+}
+
+div.todoartigos{
+	margin-left: -20px;
+	width: 1000px;
+	margin-top: -20px;
+}
+
+div.polaroidartigos{
+    width: 95%;
+	margin: 20px auto;
+    margin-top: 40px;
+    background: grey;
+    padding: 10px;
+}
+
+div.polaroidartigos ol li{
+	text-align: left;
+	width: 800px;
+	margin: 0 auto;
+	padding: 5px;
+	color: #FFF;
+	font-family: 'helvetica', sans-serif;
+}
+
+div.polaroidartigos p{
+	text-align: left;
+	margin: 0px auto;
+	padding: 20px;
+	color: #FFF;
+}
+
+div.polaroidartigos p strong{
+	font-weight: bold;
+	color: #333;
+}
+
+div.polaroidartigos ol li strong{
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #333;
+}
+
+div.polaroidartigos p.sdown{
+	font-weight: bold;
+	margin: /*10px 50px auto;*/ 10px auto;
+	color: #F0F0F0;
+	margin-left: -38px;
+	background: grey;
+	font-family: monospace;
+	/*box-shadow: 4px 4px 4px #777;*/
+	text-align: left;
+	width: 900px;
+}
+
+div.polaroidartigos img{
+	width: 30%;
+	filter: grayscale(80%);
+	margin: -200px auto 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 10s;
+}
+
+span.c{
+	background: #131418;
+	color: #777;
+	padding: 5px;
+	font-weight: bold;
+	transition: 1s;
+}
+
+span.c:hover{
+	text-decoration: none;
+	background: #000;
+	color: #888;
+	list-style: none;
+	transition: 1s;
+}
+
+.ali{
+	background: #DC143C;
+	color: #fff;
+	border-radius: 2px;
+	padding: 1px 2px;
+}
+
+.aliazul{
+	background: #3498db;
+	color: #fff;
+	border-radius: 2px;
+	padding: 2px;
+}
+
+div .polaroidartigos img:first-child {
+	background:linear-gradient(-30deg,#595959, #696969,#2F4F4F); /*Imagem tela instalação stock roms*/
+	box-shadow: none;
+}
+
+div.polaroidartigos img:hover{
+	filter: grayscale(1%);
+	transition: 1s;
+}
+
+div.containerartigos{
+    background:grey;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+div.containerartigos h1{
+	font-size: 40px;
+	text-align: left;
+	color: #363333;
+	margin: 50px auto 200px 20px;
+	font-family: monospace;
+	background: #FFF;
+	font-weight: bold;
+	/*border-left: 100px solid #c0c0c0;*/
+	padding: 20px;
+	width: 920px;
+}
+
+/*Fim dos artigos Stock roms de fábrica*/
+.nu li{
+	border: 1px solid black;
+	padding: 10px;
+	margin: 30px 10px 30px 0px;
+	display: inline-block;
+}
+
+.nu li a{
+	color: #131418;
+}
+
+.nu li:hover{
+	background: #c0c0c0;
+	color: #fff;
+}
+
+/*Corpos das páginas*/
+
+body.idsr{
+	font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(-70deg, #6a00ff, #3498db, #808080);
+
+}
+body.root{
+	font-family: 'Open Sans', sans-serif;
+   background: linear-gradient(#5cdcdc, #500000, #fff);
+}
+
+
+body.firmwares{
+	font-family: 'Open Sans', sans-serif;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+body.model{
+	font-family: 'Open Sans', sans-serif;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(10, 10, 10, 0.19);*/
+}
+
+body.modelodesbloqueio{
+	background: #F1F1F1;
+}
+
+body.model p{
+	color: #a9a9a9;
+	font-family: monospace;
+	font-size:15px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #443;
+	background-color: radial-gradient( #c0c0c0,#fff,#ebebeb);
+	background-image: url(../img/p/brn.png);
+	background-repeat: repeat;
+ 	background-attachment: scroll;
+}
+
+
+body.inicio h2{
+	color: #000;
+	text-align: justify;
+	text-indent: 13px;
+	padding: 50px;
+}
+
+
+body.hardreset{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#E7E9DE;
+	background: #E7E9DE;
+}
+
+/*inicios página hard reset fabricantes*/
+body.hardreset_sam{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#4682B4);
+}
+
+body.hardreset_cce{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: #663399;
+}
+
+body.hardreset_asus{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #363333,#272121,#F6E9E9,#4682B4);
+}
+
+body.hardreset_lg{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#FA8072);
+}
+
+body.hardreset_moto{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#fff);
+}
+
+body.hardreset_positivo{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#663399);
+}
+
+body.hardreset_blu{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#777);
+}
+
+body.hardreset_lenovo{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#00FFFF,#00FA9A,#0FA9Aa);
+}
+
+body.hardreset_alcatel{
+	font-: 'Open Sans', sans-serif;
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #00BFFF,#B0C4DE,#8FBC8B,#00BFFF);
+}
+
+/* Todas as fabricantes */
+div.sep{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0 20px 30px rgba(0,0,0,0.12), 0 20px 30px rgba(0,0,0,0.24);
+  	transition: all 0.8s cubic-bezier(.25,.8,.25,1);
+  	padding: 10px;
+}
+
+div.alcatel{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #00BFFF,#B0C4DE,#8FBC8B,#00BFFF);
+}
+
+div.cce{
+	background: #20B2AA;
+	color: #E9E9E5;
+}
+
+div.blu{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#777);
+}
+
+div.motorola{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#fff);
+}
+
+div.lenovo{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#00FFFF,#00FA9A,#0FA9Aa);
+}
+
+div.asus{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #363333,#272121,#F6E9E9,#4682B4);
+}
+
+div.lg{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#FA8072);
+}
+
+div.positivo{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#663399);
+}
+
+div.sams{
+	background-color:#8FBC8B;
+	background: linear-gradient(-54deg, #B0C4DE,#FFDAB9,#8FBC8B,#4682B4);
+}
+
+/*Fim seção fabricantes inicios.*/
+
+body.sobre{
+	font-family: 'Open Sans', sans-serif;
+	background-repeat: repeat;
+ 	background-attachment: scroll;
+	background: #323232;
+}
+
+.utmsf{
+	margin-bottom: 10px;
+}
+
+.utmsf ul{
+	list-style: none;
+}
+
+.ultu a.n{
+	width: 70px;
+	padding: 10px;
+	text-align: center;
+	height: 70px;
+	font-family: monospace;
+	background: #131418;
+}
+
+.utmsf ul{
+	margin-left: -45px;
+}
+
+.utmsf ul li a{
+	background: #000;
+	padding: 4px;
+	font-size: 20pt;
+	color: #c0c0c0;
+	margin: 5px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+body.inicio{
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	background: #FFF;
+	transition: 7s;
+}
+
+.ultu a li img{
+	width: 150%;
+	overflow: hidden;
+	border: 2px solid #333;
+	border-radius: 50%;
+	transition: 0.6s;
+	filter: blur(50px);
+}
+
+.ultu a li img:hover{
+	width: 100%;
+	transition: 0.4s;
+	border-radius: 200px 0px 200px 0px;
+	-moz-border-radius: 200px 0px 200px 0px;
+	-webkit-border-radius: 200px 0px 200px 0px;
+	border: 0px solid #000000;
+	filter: blur(0px);
+	border-left: 10px solid #333;
+}
+
+body.outros{
+	background: #F0F0F0;
+}
+
+
+body.pddesbloqueios{
+ 	background: linear-gradient(to right, #dae2f8, #d6a4a4);
+	font-family: 'Open Sans', sans-serif;
+}
+
+body.ferramentas{
+	background: #000;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+body.dicass{
+	background: linear-gradient(#ebebeb, #c0c0c0);
+	font-family: 'Open Sans', sans-serif;
+}
+
+body.lanopagina{
+	background: #212121;
+}
+
+/* Lista do Header */
+
+.menu{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	margin: 21px auto;
+}
+
+.menu li a{
+	padding: 25px 6px 25px 6px; /*padding: 16px 6px 16px 6px;*/
+	color: #c0c0c0/*1f3258*/;
+	transition: 0.2s;
+}
+
+.menu li a:hover{
+	text-decoration: none;
+	background: #1f3258;
+	color: #ebebeb;
+	transition: 0.2s;
+	box-shadow: 4px 20px 16px 0px rgba(50,50,50,0.45);
+}
+
+.menu li a:active{
+	padding: 22px 50px;
+	background: #fff;
+	color: #000;
+	transition: 0.2s;
+}
+
+a:link, a:active, a:visited{
+	color: #006064;
+	text-decoration: none;   /* Remove o sublinhado */
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* Fim da Lista do Header */
+
+
+/* Grid 960px */
+
+.linha{
+	/* width: 960px; */
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*padding: 2.5px 0px;*/
+}
+
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+
+.col1{
+	width: 60px;
+}
+
+.col2{
+	width: 140px;
+}
+
+.col3{
+	width: 220px;
+}
+
+.col4{
+	width: 300px;
+}
+
+.col5{
+	width: 380px;
+}
+
+.col6{
+	width: 460px;
+}
+
+.col7{
+	width: 540px;
+}
+
+.col8{
+	width: 620px;
+}
+
+.col9{
+	width: 700px;
+}
+
+.col10{
+	width: 780px;
+}
+
+.col11{
+	width: 860px;
+}
+
+.col12{
+	width: 940px;
+}
+
+/* Estilos reutilizáveis */
+
+.sem-padding{
+	padding: 0 !important;
+}
+
+.sem-margin{
+	margin: 0 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 15px 0 10px 0;
+	font-weight: 500;
+}
+
+ul li,ol li{
+	margin-bottom: 5px;
+}
+
+ul.inline li, ol.inline li{
+	display: inline;
+	margin-right: 15px;
+}
+
+ul.inline li:last-child, ol.inline li:last-child{
+	margin-right: 0;
+}
+
+ul.sem-marcador, ol.sem-marcador{
+	list-style: none;
+}
+
+a.botao, input.botao{
+	background: #1f3258;
+	padding: 5px 10px;
+	color: #ebebeb;
+	cursor: pointer;     /* Mãozinha no lugar do cursor */
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+}
+
+a.botao:hover, input.botao:hover{
+	background: #0d47a1;
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%
+	height: auto;
+}
+
+/* layout do site */
+
+h1.logo{
+	background:linear-gradient(-30deg,#595959, #696969,#2F4F4F);
+	font-family: monospace;
+	text-align: center;
+	padding: 14.5px 7px 14.5px 7px;
+	transition: 0.5s;
+	margin-left: -10px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h6.logo{
+	/*background: #1f3258;*/
+	font-family: monospace;
+	background:linear-gradient(-30deg,#595959, #696969,#2F4F4F);
+	text-align: center;
+	margin-left: -10px;
+	padding: 14.5px 7px 14.5px 7px;
+	font-size: 26px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+h1.logo a{
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+h6.logo a{
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+.conteudo-extra{
+	background:linear-gradient(60deg, #2f4f4f,#5d5c5c,#DCDCDC);
+	color: #FFF;
+	margin-bottom: 5px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.conteudo-extra_o{
+	transition: 0.4s;
+	background: linear-gradient(-90deg,#C582D5,#E3D9CA);
+	/*background:linear-gradient(-30deg,#595959, #696969,#2F4F4F);background: linear-gradient(#F5DEB3, #F08080);*/
+	padding: 20px;
+}
+
+.conteudo-extra_o p{
+	font-family: 'Raleway', sans-serif;
+}
+
+.branco{
+	width: auto;
+	background: #fff;
+}
+
+.branco ul li{
+	font-size: 15px;
+	padding: 20px;
+	width: 100px;
+	margin: 10px 5px 10px 5px;
+	height: 100px;
+	background: #777;
+	color: #fff;
+	display: inline-block;
+}
+
+.footer{
+	background: #000;
+	color: #c0c0c0;
+	box-shadow: 0px -8px 22px 1px rgba(0,0,0,0.3);
+	padding: 20px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+.footer2{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	background:linear-gradient(-60deg, #F9F9F9,#c0c0c0);
+	color: #000;
+	padding: 20px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+.header{
+	margin-bottom: 30px;
+	background: #000/*#453246linear-gradient(-60deg, #F9F9F9,#c0c0c0)*/;
+	box-shadow: 0px 8px 18px 1px rgba(0,0,0,0.3);*/
+ 	z-index: 99;
+}
+
+.header2{
+	margin-bottom: 20px;
+	background: linear-gradient(-50deg,#453246,#91519D,#C582D5,#E3D9CA);
+	z-index: 99;
+	box-shadow: none;
+}
+
+
+.contato label{
+	display: block;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.contato input, .contato textarea{
+	display: block;
+	margin-bottom: 15px;
+	padding: 5px 2%;
+	width: 96%
+}
+
+.contato textarea{
+	height: 150px;
+}
+
+.contato input.botao{
+	width: auto;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+
+/* Barra de pesquisa */
+
+.campo{
+	text-align: left;
+	padding:  30px;
+	color: #000;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border: hidden;
+	font-family: helvetica;
+	width: 700px;
+	font-weight: bold;
+	height: 10px;
+	background:#ebebeb;
+}
+
+.campo:active{
+	border: hidden;
+}
+
+input.btn{
+	margin: 0 auto;
+	padding: 10px;
+	display: block;
+	border: 1px solid white;
+	background: #FFF;
+	color:#000;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #ebebeb;
+	box-shadow: 0px 2px 3px #ebebeb;
+}
+
+.btn:active{
+	background: #ccc;
+}
+
+/* FIM DA BARRA DE PESQUISA */
+
+
+/* Firmwares */
+
+li.d{
+	padding: 20px;	background: #F0F0F0; width: 25%; columns: 2;
+}
+
+li.d img{
+	width: 100%;
+
+}
+
+li.d h3, p{
+	font-family: monospace;
+}
+
+li.d h3{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+figure.firmwares a{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 5px 10px;
+	margin: 10px 5px 40px 10px;
+	font-size: 17px;
+	display: inline-block;
+	transition: 1.8s;
+	font-weight: bold;
+	font-family: monospace, Raleway;
+	color: #000;
+}
+
+figure.firmwares{
+	margin: 0 auto;
+	width: 900px;
+	margin-bottom: 10px;
+}
+
+figure.firmwares a:hover{
+	text-decoration: none;
+	background: #c5e1a5;
+	color: #33691e;
+	transition: 0.4s;
+	border-radius: 3px;
+}
+
+.slidein {
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+.top{
+	margin-top: 30px;
+	margin-bottom: 80px;
+	font-size: 25px;
+	font-family: fantasy, monospace;
+	background:linear-gradient(60deg, #2f4f4f,#5d5c5c,#777);
+	text-align: center;
+	color: #c0c0c0;
+	padding: 10px;
+	margin-right: auto;
+	animation-duration: 1.4s;
+  	animation-name: slidein;
+  	animation-iteration-count: initial;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+}
+
+/* botão voltar abaixo do topo */
+
+.voltar:after{
+
+
+}
+
+.voltar a{
+	font-size: 15px;
+	background: #1f3258;
+	color: #fff;
+	margin-left: 0px;
+	padding: 10px;
+	text-decoration: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.voltar a:hover{
+	background: #4682B4;
+	color: #fff;
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);*/
+}
+
+section.img{
+	width: 250px;
+	height: auto;
+
+}
+
+.voltar1 a{
+	font-size: 13px;
+	background-color: #4682B4;
+	color: #fff;
+	padding: 20px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-decoration: none;
+	margin-left: -880px;
+	transition: 1s;
+}
+
+.voltar1 a:hover{
+	background: #1f3258;
+	color: #fff;
+	transition: 1s;
+}
+
+.voltar2 a{
+	font-size: 13px;
+	background-color: #fff;
+	color: #000;
+	padding: 20px;
+	text-decoration: none;
+	margin-left: /*-830px;*/ -885px;
+	transition: 0.1s;
+}
+
+.voltar2 a:hover{
+	background: red;
+	color: white;
+	font-weight: bold;
+	box-shadow: 3px 3px 3px #777;
+	transition: 0.1s;
+}
+
+.voltar3 a{
+	font-size: 13px;
+	background-color: #4682B4;
+	color: #fff;
+	padding: 20px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-decoration: none;
+}
+
+.voltar3 a:hover{
+	background: #1f3258;
+	color: #fff;
+}
+
+/*Imagem lateral dos modelos firmwares mudando sob demanda do mouse*/
+
+
+div.dvolta img{
+	width: 240px;
+	/*padding: 5px 10px;*/
+	background:  #FFF/*linear-gradient(70deg,#DEB887, #aaa)*/;
+	float: right;
+	margin-bottom: 20px;
+  	transition: 0.5s;
+}
+
+div.dvolta{
+	/*background: linear-gradient(-70deg,#DEB887, #aaa);*/
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);*/
+	transition: 0.4s;
+	bottom: 100px;
+	position: fixed;
+	margin-left: 500px;
+	opacit y: 0.4;
+}
+
+/*h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, figure, img, input, label, span{*OFF SELECT
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}*/
+
+/*Custom roms*/
+
+body.cr{
+	background: #F6F6F6;
+}
+
+.custom h1{
+	color: #363333;
+	font-size: 50px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 50px;
+}
+.custom ol li{
+	width: 400px;
+	background: #FFF;
+	padding: 10px;
+	display: inline-block;
+	list-style: none;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.custom ol li:hover{
+	text-decoration: none;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.custom ol li img{
+	width: 400px;
+}
+
+.custom ol li p{
+	font-weight: bolder;
+	font-family: opens-sans;
+	color: #302939;
+}
+
+div.dvolta img:hover{
+	transition: 0.4s;
+	width: 280px;
+	opacity: 0.8;
+}
+
+h4.payper{
+	background: /*linear-gradient(-90deg,#696969, #131418) linear-gradient(-70deg,#DEB887, #aaa)*/#1DCD9F;
+	color: #ebebeb;
+	padding: 10px;
+	opacity: 0.7;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: monospace;
+	letter-spacing: 0.5px;
+	text-align: left;
+	border-radius: 1px;
+	margin-top: -1px;
+}
+
+/*Fim imagem lateral de demanda por mouse*/
+.colo{
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);
+}
+.colo ol{
+	width: 280px;
+	text-align: left;
+}
+
+.colo ol a{
+	color: #483d8b;
+	text-decoration: none;
+}
+
+.colo ol a li{
+	transition: 1s;
+	text-transform: uppercase;
+}
+
+.colo ol a li:hover{
+	color: #EE2B47;
+	transition: 0.3s;
+}
+
+/*Background li´s quando pressionadas*/
+
+ol.iasam a li:active{
+	background: #FCF9F9;
+	padding: 9px;
+	transition: 0.1s;
+}
+
+ol.iecce a li:active{
+	background: #20B2AA;
+	padding: 9px;
+	transition: 0.1s;
+}
+
+ol.iolg a li:active{
+	background: #DC143C;
+	padding: 9px;
+	transition: 0.1s;
+}
+
+ol.iublu a li:active{
+	background: #34495e;
+	padding: 9px;
+	transition: 0.1s;
+}
+
+ol.iialca a li:active{
+	background: #12C8FF;
+	padding: 9px;
+	transition: 0.1s;
+}
+
+ol.ibmoto a li:active{
+	background: #B8860B;
+	padding: 9px;
+	transition: 0.1s;
+}
+
+ol.iclenovo a li:active{
+	background: #27ae60;
+	padding: 9px;
+	transition: 0.1s;
+}
+
+/**/
+
+.colo h2{
+	width: 90px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #c0c0c0;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	background: #131418;
+}
+
+.colo h3{
+	background: #1f3258;
+	text-align: center;
+	border-radius: 1px;
+	text-transform: capitalize;
+	font-family: monospace;
+	color: #f9f9f9;
+	font-size: 15px;
+	margin: 15px 0 15px 0;
+	padding: 3px;
+	box-shadow: -5px 9px 3px #ebebeb;
+}
+
+.hist h1{
+	margin: 80px 0px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+/* PÁGINA OUTROS */
+
+ul.outros1 a li{
+	margin: 20px;
+	display: inline-block;
+	background: #c0c0c0;
+	font-size: 14px;
+	color: #000;
+	font-family: monospace;
+	padding: 20px;
+	border-radius: 1px;
+}
+
+ul.outros1 a li:hover{
+	background: #333;
+	color: #ebebeb;
+}
+
+ul.outros1 a li img{
+	width: 60px;
+}
+
+ul.outros1 a li hr{
+	color: #000;
+	padding: 0.3px;
+	background: #333;
+	border: transparent;
+}
+
+.movimentar h1{
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.58);
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #131418;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.movimentar section{
+	padding: 10px;
+}
+
+/* FIM PÁGINA OUTROS */
+
+.hist{
+	columns: 3;
+	width: 1125px;
+	margin-left: 188px;
+	padding: 10px;
+	background: #131418;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.hist p{
+	color: #777;
+	font-size: 15px;
+}
+
+.hist h2{
+	font-weight: bold;
+}
+
+p.out{
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* FIM DA PÁGINA SOBRE */
+
+.avisofirmware{
+	text-align: justify;
+	margin: 3px 0 10px 0;
+	padding: 10px;
+}
+
+/* Página Oficial de Download */
+.quadro{
+	border-radius: 4px;
+	background: #fff;
+}
+
+section.mostruario img{
+	height: auto;
+	width: 250px;
+	filter: grayscale(8650%);
+	border: solid 1px #ff6600;
+	padding: 10px;
+	margin-left: 30px;
+	box-shadow: none;
+	transition: 0.8s;
+	margin-top: 40px;
+}
+
+section.mostruario img:hover{
+	/*box-shadow: 12px 12px  3px #ebebeb;*/
+	background-color: radial-gradient( #c0c0c0,#fff,#ebebeb);
+	transition: 0.8s;
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+
+div.descricao{
+	width: 37%;
+	height: 33%;
+	padding: 0px;
+	margin-left: 90px;
+	margin-top: 10px;
+}
+
+.descricao p a{
+	text-transform: uppercase;
+}
+
+div.descricao p{
+	text-align: left;
+	margin-left: 10px;
+	font-family: monospace;
+	font-size: 20px;
+	color: #000;
+}
+
+span.red{
+	background: #cd201f;
+	color: #fff;
+	padding: 4px;
+}
+
+a span.red:hover{
+	list-style: none;
+	background: #006064;
+	text-decoration: none;
+}
+
+span.blue{
+	background: #3b5999;
+	color: #fff;
+	padding: 4px;
+}
+
+a span.blue:hover{
+	list-style: malayalam;
+	background: #006064;
+	text-decoration: none;
+}
+
+.desbloqueios{
+	background: #0E2431;
+	margin-bottom: 50px;
+}
+
+.desbloqueios ol{
+	margin-left: -5px;
+}
+
+.detalhes{
+	background: #fff;
+	width: 400px;
+}
+
+.detalhes h2 img{
+	width: 60px;
+	height: 60px;
+	opacity: 10;
+    float: right;
+ 	background: #000;
+ 	padding: 10px;
+    margin: -10px 0px 10px 0;
+}
+
+.detalhes h2{
+	height: 62px;
+	color: #777;
+	opacity: 0.7;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.texto{
+	background: #F0F0F0;
+	margin: 35px auto 35px 0px; /*20*/
+	box-shadow: 3px 4px 5px #FFF;
+}
+
+.texto img{
+	width: 70px;
+	margin: 4px 0 2px 0px;
+	opacity: 0.4;
+	background: #000;
+	filter: grayscale();
+}
+
+.text02{
+	background: #F9F9F9;
+}
+
+.text02 ol li{
+	font-size: 15px;
+	text-align: left;
+	color: #777;
+	margin-top: -2px;
+	list-style: none;
+}
+
+.text02 ol{
+	border: 10px solid #f5f5f5;
+	background: #ebebeb;
+	padding: 20px 30px 20px 30px;
+	width: 350px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.text02 h3{
+	text-align: center;
+	margin-left: 48px;
+	font-size: 35px;
+	color: #000;
+	margin-top: 30px;
+	text-transform: uppercase;
+	text-shadow: 2px 3px 5px yellow;
+	font-family: fantasy;
+	font-weight: bold;
+}
+
+.texto p{
+	font-size: 16px;
+	color: #000;
+	margin-top: 5px;
+	font-weight: bold;
+  	font-family: 'Raleway', sans-serif;
+}
+
+
+.texto p a{
+	color: #000;
+	background: #8bc324;
+	border-radius: 1px;
+	padding: 1px 9px 1px 9px;
+	transition: 0.2s;
+}
+
+.texto p a:hover{
+	background: #32CD32;
+	color: #000;
+	box-shadow: 0px 2px 3px #131418;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+/*Sidebar barra lateral*/
+
+.sidebar1{
+	left: 87%;
+	width: 12%;
+	z-index: 1000;
+	background: #000;
+	position: fixed;
+	transition: 1s;
+	transform: translateY(-20.4%);
+	box-shadow: 0px 0px 0px #000;
+}
+
+.sidebar1:hover{
+	transition: 0.5s;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.sidebar1 ul{
+	margin-bottom: 20px;
+}
+
+.sidebar1 ul li{
+	font-family: monospace;
+	margin: 0px;
+	padding: 2px;
+	list-style: none;
+	margin-left: -30px;
+}
+
+.sidebar1 ul li img{
+	width: 30%;
+	margin-left: 10%;
+}
+
+.sidebar1 ul li a{
+	color: #F0F0F0;
+	font-size: 13px;
+}
+
+.sidebar2{
+	width: 12%;
+	z-index: 1000;
+	background: #FFDAB9;
+	position: fixed;
+	left: 87%;
+	transition: 1s;
+	top: 600px;
+}
+
+.sidebar2:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+	transform: translateY(-40px);
+	background: #FFF;
+	transition: 1s;
+}
+
+.sidebar ul{
+	margin-bottom: 20px;
+}
+
+.sidebar2 ul li{
+	font-family: monospace;
+	margin: 0px;
+	padding: 5px;
+	list-style: none;
+	margin-left: -30px;
+}
+
+.sidebar2 ul li a{
+	color: #000;
+}
+
+.sidebar2 ul li a:hover{
+	font-weight: bold;
+}
+
+
+.bd{
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*Fim conteúdo barra lateral*/
+
+
+.textos h3{
+	text-align: center;
+	font-weight: 700;
+	font-family: monospace;
+	font-size: 20px;
+	color: #c0c0c0;
+	text-shadow: 2px 2px 3px #777;
+}
+
+.textos h3:before{
+	content: '# ';
+}
+
+body.samsungpdd{
+	border-right: 0.3px solid #C0C0C0;
+}
+
+.textos{
+	text-align: left;
+	background: /*#D2B48C;*/ #453246;
+	margin: 35px auto 35px 0px;
+	transition: 1s;
+	/*890*/
+}
+
+.te xtos:hover{
+	width: 890px;
+	transition: 1s;
+	background: #333;
+}
+
+.textos hr{
+	background: #000;
+	color: #000;
+	box-shadow: none;
+	border: none;
+	padding: 0;
+}
+.textos a{
+	text-decoration: none;
+	font-size: 15px;
+	padding: 20px;
+	margin: 10px;
+	display: inline-block;
+	background: #27ae60;
+	color: #f4f4f4;
+	transition: 0.4s;
+}
+
+.textos a:hover{
+	background: #00FA9A;
+	color: #777;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+	transition: 0.4s;
+}
+
+/* Redes Sociais */
+
+section.rsociais{
+	margin: 50px auto;
+	width: 940px;
+	height: 180px;
+	margin-left: 185px;
+
+}
+
+section.rsociais p{
+	text-align: left;
+	font-weight: bold;
+	color: #000;
+	padding: 5px;
+	font-family: cursive;
+	background: #F31418/*linear-gradient(-90deg, #fff, #ebebeb)*/;
+	width: 340px;
+	margin-bottom: 20px;
+}
+
+.rede{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 70px;
+	transition: all 0.4s ease-out;
+	border-radius: 1px;
+}
+
+.rede:hover{
+	cursor: pointer;
+	transform: translateY(-10px);
+	box-shadow: 4px 20px 16px 0px rgba(50,50,50,0.45)
+}
+
+.facebook{
+	background-color: #2372a3;
+}
+
+.twitter{
+	background-color: #0084b4;
+}
+
+.instagram{
+	background-color: #3f729b;
+}
+
+.snap{
+	background-color: #fc0;
+}
+
+.plus{
+	background-color: #dd4b39;
+}
+
+.youtube{
+	background-color: #b00;
+}
+
+.icon{
+	margin: 0px auto;
+	padding: 15px;
+	width: 30px;
+}
+
+/* FIM DAS REDES SOCIAIS */
+
+
+/* Página Hard Reset*/
+
+ol.artigo{
+	width: auto;
+	padding: 10px;
+}
+
+ol.artigo li a{
+	text-decoration: none;
+}
+
+ol.artigo li a h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+ol.artigo li{
+	display: inline-block;
+	margin: 50px auto;
+	background: #fff;
+	margin-left: 30px;
+	text-align: center;
+	color: #131418;
+	width: 20%;
+  	transition: all 0.8s cubic-bezier(.25,.8,.25,1);
+	font-size: 14px;
+}
+
+.artigo figcaption{
+	font-size: 12px;
+	padding: 2px;
+	font-weight: bold;
+	font-family: monospace;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+ol.artigo li:hover{
+	cursor: pointer;
+	transform: translateY(-50px);
+	box-shadow: 0 6px 20px #000;
+  	transition: all 0.8s cubic-bezier(.25,.8,.25,1);
+}
+
+.tile h3{
+	background-color: #131418;
+	margin: -15px -50px 10px -40px;
+	color: #fff;
+	padding: 15px;
+	font-weight: bold;
+	text-align: left;
+	width: 158px;
+	text-transform: uppercase;
+	transition: 0.1s;
+}
+
+.tile h3:hover{
+	background-color: #a4c400;
+	transition: 0.1s;
+}
+
+.tile img{
+	width: 188px;
+	margin: -10px -50px 0px -50px;
+	transition: 0.7s;
+}
+
+.tile figcaption{
+	margin: -15px -50px -15px -50px;
+	padding: 20px;
+	color: #131418;
+	text-transform: uppercase;
+}
+
+/* Fim da Página hard Reset */
+
+/* Página desbloqueios conta google sub pasta de Outros */
+
+li.artigo1{
+	display: inline-block;
+	margin: 50px 10px 10px 10px;
+	background: #fff;
+	text-align: center;
+	color: #131418;
+	width: 15%;
+	transition: 0.2s;
+	font-size: 14px;
+}
+
+li.artigo1:hover{
+	transform: translateY(-30px);
+	box-shadow: 10px 10px 95px 1px rgba(0,0,0,0.75);
+}
+
+h1.tophard {
+  color: #000;
+  text-shadow: 0px 2px 3px #000;
+  font-size: 50px;
+  border-radius: 2px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 30px;
+}
+
+li.artigo1 a{
+	text-decoration: none;
+}
+
+.tile1 h3{
+	background: linear-gradient(to bottom, #fd746c, #ff9068);
+	margin: -15px -50px 10px -50px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	text-align:left;
+	padding: 15px;
+}
+
+.tile1 h3:hover{
+	background-color: #f9f9f9;
+	color: #000;
+}
+
+.tile1 img{
+	width: 270.5%;
+	margin: -10px -50px 10px -50px;
+}
+
+figcaption{
+	margin: -15px -50px -15px -50px;
+	padding: 20px;
+	font-size: 10px;
+	color: #131418;
+}
+
+/* Fim da Página desbloqueios */
+
+
+/* Página do modelo de desbloqueio em questao*/
+
+.modelo1 img{
+	max-width: 190px;
+    margin-bottom: 70px;
+	border-radius: 3px;
+	border: 10px solid #F0F0F0;
+	box-shadow: 4px 20px 8px #a9a9a9;
+	transition: 2s;
+	margin-left: 10px;
+	background: #000;
+}
+
+.modelo1 img:hover{
+	max-width: 300px;
+	transition: 1S;
+	box-shadow: none;
+}
+
+.modelo1 p{
+	text-align: left;
+	width: 500px;
+	font-size: 25px;
+	border: 1.3px solid #c0c0c0;
+	padding: 15px;
+	border-radius: 3px;
+	color: #000;
+}
+
+p.ddlista{
+	font-size: 17px;
+	border: none;
+	text-align: justify;
+	text-decoration: underline;
+}
+
+p.pgf{
+	font-size: 20px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-indent: 40px;
+	border: 1.3px solid #ebebeb;
+	padding: 20px;
+}
+
+body.eu{
+	width: 500px;
+	background: #c0c0c0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.eu h1{
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 100px 0 50px 0;
+	font-size: 40px;
+	color: #000;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+p.pgf2{
+	font-family: monospace;
+	text-align: justify;
+	border: none;
+	padding: 0 0px 30px 0px;
+	font-size: 15px;
+	text-indent: 35px;
+	border: -1px solid black;
+	padding: 20px;
+}
+
+p.pgf3{
+	border: -1px solid black;
+}
+
+p.vb{
+	text-align: left;
+	font-size: 15px;
+	margin-top: 10px;
+	border: none;
+
+}
+
+h1.top2{
+	margin: 40px 0px 50px 10px;
+	font-size: 60px;
+	font-family: fantasy;
+	text-align: justify-all;
+	color: black;
+	text-shadow: -3px 4px 2px #ebebeb;
+	text-transform: uppercase;
+}
+
+.espaço{
+	margin-top: 140px;
+}
+
+hr.barra{
+	border: -1px solid 	#bc8f8f;
+	border-color: black;
+	padding: 1px;
+	width: auto;
+}
+
+/* fim da página do desbloqueio em questão */
+
+
+/*Modelos do hard reset*/
+
+
+div.lg{
+	transition: 1s;
+	box-shadow: 10px 20px 10px #777;
+}
+
+.lano{
+	background-color:#8FBC8B;
+	background: linear-gradient(-64deg, #B0C4DE,#00FFFF,#00FA9A,#0FA9Aa);
+	width: auto;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.lano img{
+	display: block;
+    width: 220px;
+    padding: 20px 340px 20px 340px;
+	margin: 0 auto;
+	box-shadow: 1px 2px 3px #ffffff;
+	background: radial-gradient(#fff,#f8f8f8,#f9f9f9,#f5f5f5);
+	margin-top: 30px;
+}
+
+body.lanofundo{
+	font-family: 'Open Sans', sans-serif;
+	transition: 40s;
+	background-color:#777;
+	background: gray;
+}
+
+.lano p{
+	color: #f9f9f9;
+	text-align: center;
+}
+
+.lano h1{
+	text-align: left;
+	letter-spacing: 3px;
+	margin: 70px 0 50px 0;
+	font-size: 42px;
+	color: #000;
+	text-shadow: 0px 0px 4px #777;
+	font-weight: bold;
+	transition: 1.6s;
+	text-transform: uppercase;
+}
+
+.lano h1:hover{
+	text-shadow: 0px 0px 1px #777;
+	transition: 1.6s;
+	cursor: pointer;
+}
+
+.lano ol{
+	padding: 10px;
+	font-size: 20px;
+	box-shadow: 0px 2px 3px #777;
+	margin-top: 50px;
+	background: #FFFFFF;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.lano li{
+	margin-left: 16px;
+	padding: 2px;
+	color: #000;
+	font-size: 18px;
+	text-align: left;
+}
+
+.lano li span{
+	color: #777;
+}
+
+p.min{
+	font-size: 15px;
+	text-align: left;
+	margin-bottom: 40px;
+	color: #F9F9F9;
+	padding: 3PX;
+}
+
+p.min a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Fim dos modelos hard reset*/
+
+
+/* Página dicas */
+
+.dicasfundo{
+	background: linear-gradient(#ebebeb, #c0c0c0);
+	margin-top: 50px;
+	box-shadow: 4px 20px 16px 0px rgba(50,50,50,0.45)
+}
+
+.dicas{
+	margin: 20px 47px 10px 47px;
+	background: #f0f0f0;
+	width: 40%;
+	display: inline-block;
+}
+
+.DicasEmDestaque{
+	background: #00;
+}
+
+.dicas a{
+	text-decoration: none;
+}
+
+.dicas p{
+	padding: 10px;
+	text-indent: 30px;
+	font-size: 15px;
+}
+
+.dicas h3{
+	background: linear-gradient(-90deg, #1ba1e2, #aa00ff);
+	color: #f7f7f7;
+	padding: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 14.2px;
+	transition: 0.6s;
+	margin-top: -10px;
+}
+
+.dicas h3:hover{
+	transition: 0.6s;
+	background: linear-gradient(-10deg, #1ba1e2, #aa00ff);
+
+}
+
+.dicas img{
+	width: 70%;
+	padding: 5px 58px 5px 58px;
+	background: linear-gradient(#c0c0c0, #ebebeb);
+
+}
+
+/* Fim da Página dicas */
+
+
+/*Conteudo das dicas*/
+
+.pagina ol li img{
+	width: 70%;
+	box-shadow: 5px 5px 78px #777;
+    margin: 0 auto;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+div.pagina img{
+	width: 35%;
+    margin: 0 auto;
+	display: block;
+	margin-top: 50px;
+	background: #DC143C;
+	box-shadow: 5px 5px 7px #000;
+}
+
+ol.telapequena li img{
+	width: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin: 0 auto;
+	display: block;
+}
+
+ul.imageblock{
+	background: #FFFEDE;
+	margin-top: 50px;
+	box-shadow: inset 10px 10px 160px -34px rgba(0,0,0,0.75);
+	margin-bottom: 50px;
+}
+
+ul.imageblock li img{
+	display: inline-block;
+	width: 120px;
+	box-shadow: none;
+	margin: 10px;
+	transition: 3s;
+}
+
+ul.imageblock li img:hover{
+	width: 20%;
+	box-shadow: 10px 10px 160px -34px rgba(0,0,0,0.75);
+	transition: 1s;
+}
+
+.jdv{
+	background: #000;
+	padding: 2px;
+	color: #F03861;
+}
+
+.aqui{
+	background: red;
+	border-radius: 1px;
+	color: #c0c0c0;
+	padding: 1px 2px;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+.pagina{
+	margin: 0px auto;
+	background: #333;
+	padding: 10px;
+	width: 940px;
+}
+
+.pagina p{
+	padding: 5px;
+	font-size: 17px;
+	color: #DCDCDC;
+}
+
+.pagina h1{
+	margin-bottom: 70px;
+	font-weight: bolder;
+	font-size: 50px;
+	padding: 5px;
+	text-align: left;
+	width: 945px;
+	margin-left: -8px;
+	text-transform: uppercase;
+	color: #000;
+	text-shadow: 2px 3px 3px #000;
+	margin-top: -10px;
+	background: #C4E3CB;
+	opacity: 0.7;
+}
+
+.pagina ol{
+	margin-l eft: -40px;
+}
+
+.pagina ol li{
+	list-style: none;
+}
+
+.pagina ol li img{
+	box-shadow: 3px 3px 5px #453246;
+	opacity: 0.8;
+	transition: 2s;
+}
+
+.pagina ol li img:hover{
+	box-shadow: 4px 5px 10px #453246;
+	opacity: 1;
+	transition: 2s;
+}
+
+.pagina ol li p{
+	border: 0.5px solid #ebbebe;
+	padding: 10px;
+	text-align: left;
+	font-family: monospa ce;
+	transition: 3030s;
+}
+
+.pagina ol li p:hover{
+	background: #259F6C;
+	transition: 1s;
+	color: #000;
+	font-weight: bold;
+}
+
+.pagina ol li a{
+	transition: 1s;
+	text-decoration: none;
+	background: #f0f0f0;
+	color: #000;
+	border-radius: 1px; padding: 10px;
+	margin-left: -40px;
+}
+
+.pagina ol li a:hover{
+	transition: 0.1s;
+	background: #1abc9c;
+	color: #f8f8f8;
+}
+
+/*Fim conteúdos das dicas*/
+
+/* Página ferramentas */
+
+div.total{
+	background: /*#191c1c;*/;
+	margin-top: 50px;
+	text-align: center;
+	width: 900px;
+}
+
+div.total li figcaption{
+	font-size: 14px;
+}
+
+div.quadrada{
+	background: /*#191c1c*/;
+	margin-top: 50px;
+	text-align: center;
+}
+
+div.total h2{
+	margin-top: -3px;
+	text-align: left;
+	margin-bottom: 50px;
+	margin-left: 0;
+	padding: 5px;
+}
+
+div.total li:not(.sem){
+	margin: 10px 20px 10px 0;
+	background: #fff;
+	color: #131418;
+	width: 10%;
+	font-size: 13px;
+	transition: 0.3s ease-out;
+	display: inline-block;
+}
+
+div.quadrada li{
+	margin: 10px 0px 10px 10px;
+	background: #f0f0f0;
+	color: #131418;
+	width: 22%;
+	font-size: 14px;
+	border-radius: 1px;
+	transition: 0.7s ease-out;
+	display: inline-block;
+}
+
+div.total li:hover{
+	cursor: pointer;
+	transform: translateY(-20px);
+	transition: 0.7s;
+	box-shadow: 0px 0px 70px #000;
+	padding: 0px 10px 0px 10px;
+}
+
+div.quadrada li:hover{
+	cursor: pointer;
+	/*transform: translateY(-30px);*/
+	transition: 0.8s;
+	box-shadow: -27px 10px 102px 0px rgba(0,0,0,0.75);
+	/*padding: 0px 10px 0px 10px;*/
+}
+
+.quadrada li a:hover{
+	text-decoration: none;
+}
+
+.ferramentas h2{
+	padding: 5px;
+	background: #27ae60;
+	color: #f0f0f0;
+	width: 500px;
+	text-align: left;
+	margin-top: -4px;
+	margin: 0  auto 70px 0;
+}
+
+figure.box img{
+	width: 80px;
+	margin: -4px 5px 20px -31px;
+}
+
+.box figcaption{
+	color: #fff;
+	background: #647687;
+	padding: 10px;
+}
+
+.fdcparatasd{
+	background: #131418;
+	padding: 10px;
+	width: 940px;
+}
+
+li.black{
+	background: #000!important;
+}
+
+/*Contéúdo 2*/
+
+.box1 h3{
+	background-color: #27ae60;
+	margin: -15px -40px 10px -40px;
+	color: #fff;
+	padding: 15px;
+	font-size: 15px;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.box1 h3:hover{
+	transition: 0.5s;
+	background-color: #2ecc71;
+}
+
+figure.box1 img{
+	width: 168%;
+	height: auto;
+	margin: -10px -51px 10px -51px;
+}
+
+.quadrada{
+	width: 900px;
+	padding: 0;
+}
+
+div.quadrada figcaption{
+	padding: 10px;
+	color: #131414;
+	font-weight: bold;
+	opacity: 0.8;
+}
+/* Fim da Página ferramentas
+
+
+/*Root*/
+div.todoroot{
+	margin-top: 20px;
+	padding: 10px;
+	background: #500000;
+}
+
+.todoroot h1{
+	font-family: monospace;
+	font-size: 50px;
+	color: #F78F1E;
+	margin-bottom: 20px;
+}
+
+div.dentrodacaixa{
+    width: 200px;
+  	margin-left: 5px;
+}
+
+div.dentrodacaixa p:not(.tos){
+	background: #272637;
+	color: #777;
+	text-transform: uppercase;
+	padding: 20px;
+	margin-right: 5px;
+	text-align: left;
+	overflow: hidden;
+}
+
+div.dentrodacaixa img {
+	width: 100px;
+	overflow: hidden;
+}
+
+div.dentrodacaixa p.tos{
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-family: monospace;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+div.caixaanteimg {
+    text-align: center;
+    display: inline-block;
+    background: #131418;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+div.caixaanteimg:hover{
+	background: #777;
+	transition: 1s;
+}
+
+a.own{
+	text-decoration: none;
+}
+
+/*Fim root*/
+
+/*Stock roms página principal*/
+
+div.todo{
+	column-count: 2;
+	width: 950px;
+	margin-top: 50px;
+}
+
+div.todo h1{
+	padding: 20px;
+	font-size: 60px;
+	margin-bottom: 30px;
+	text-shadow: 3px 3px #777;
+	color: #e4405f;
+	font-family: monospace;
+	text-align: left;
+}
+
+body.stockroms{
+	background: #777;
+}
+
+div.polaroid{
+    width: 80%;
+    background-color: #f9f9f9;
+	margin: 0 auto;
+    padding: 10px;
+    transition: 1s;
+}
+
+div.polaroid:hover{
+	box-shadow: 10px 10px 53px 0px rgba(0,0,0,0.69);
+}
+
+.hr{
+	padding: 0.2px;
+	border: 0.1px solid #bc8f8f;
+	background: #bc8f8f;
+}
+
+div.polaroid p{
+	text-align: left;
+	font-family: monospace;
+	padding: 20px;
+	color: #2c3e50;
+}
+
+div.polaroid img {
+	width: 30%;
+	margin-top: 5px;
+	margin-left: 66%;
+	background: #ebebeb;
+	opacity: 0.5;
+}
+
+.polaroid img:hover{
+	opacity: 5;
+	transition: 0.3s;
+}
+
+div.container{
+    text-align: center;
+    margin: 20px;
+}
+
+/*banners*/
+
+.faixa1m{
+	margin-bottom: -60px;
+	padding: 19px;
+	background:  #000;
+	color: #F9F9F9!important;
+	margin-top: 5px;
+	width: 170px;
+	margin-left: -30px;
+	border-left: 3px solid #60a917;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.faixa1s{
+	margin-bottom: -60px;
+	padding: 19px;
+	background:  #2980b9;
+	color: #F9F9F9!important;
+	margin-top: 5px;
+	width: 170px;
+	margin-left: -30px;
+	border-left: 3px solid #60a917;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.faixa2l{
+	margin-bottom: -60px;
+	padding: 19px;
+	background:  #e74c3c;
+	color: #F9F9F9!important;
+	margin-top: 5px;
+	width: 170px;
+	margin-left: -30px;
+	border-left: 3px solid #60a917;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.faixa3b{
+	margin-bottom: -60px;
+	padding: 19px;
+	background:  #34495e;
+	color: #F9F9F9!important;
+	margin-top: 5px;
+	width: 170px;
+	margin-left: -30px;
+	border-left: 3px solid #60a917;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.faixa4m{
+	margin-bottom: -60px;
+	padding: 19px;
+	background:  #60a917;
+	color: #F9F9F9!important;
+	margin-top: 5px;
+	width: 170px;
+	margin-left: -30px;
+	border-left: 3px solid #60a917;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*Fim da página principal das stocks*/
+
+
+/*Contéudo das firmwares*/
+
+.avisofirmware_c{
+	text-align: left;
+}
+
+.avisofirmware_c section p{
+	font-family: monospace;
+	color: black;
+	font-size: 17px;
+	opacity: 0.7;
+}
+
+.avisofirmware_c section p span{
+	text-transform: uppercase;
+}
+
+.conteudo-extra_c{
+	box-shadow: inset 0px 3px 15px -6px rgba(69,50,70,1);
+	background: #FFa;
+	padding: 50px;
+}
+
+/*Fim Contéudo das firmwares*/
+
+
+body.snp{
+	background: #FFFC00;
+}
+
+.code{
+	margin-top: 180px;
+	background: #000;
+	padding: 20px;
+	box-shadow: 3px 3px 10px #000;
+}
+
+.code img{
+	width: 50%;
+}
+
+
+.code p{
+	color: #F0F0F0;
+	float: right;
+}
+
+/*Logo na frase SO. IN ROMS */
+span.lgds {
+	background: #1f3258;
+	color: #c0c0c0;
+	letter-spacing: 4px;
+	text-shadow: 0px 0px 3px #000;
+	border-radius: 1px;
+	padding: 3px;
+}
+
+.aviso p:before{
+	content: '@Ao utilizar este site você concorda com seus termos de ';
+}
+
+.linhas{
+	width: 980px;
+	padding: 50px;
+	margin: 20px auto;
+}
+
+.aviso{
+	background: #000;
+	width: 100px;
+	position: fixed;
+	padding: 10px;
+}
+
+
+.aviso p{
+	text-align: left;
+	font-size: 100%;
+	color: #FFF;
+	font-family: monospace;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+.aviso p a{
+	color: #777;
+	font-weight: bold;
+}
+
+/*Quando selecionado*/
+
+p.s{
+	background: red;
+	opacity: 0.5;
+}
+
+p.s a{
+	color: #000;
+	background: #FFF;
+	padding: 1px 10px 1px 10px;
+	transition: 0.3s;
+	border-radius: 1px;
+}
+
+p.s a:hover{
+	color: #FFF;
+	background: #000;
+	text-decoration: none;
+	transition: 0.3s;
+	border-radius: 1px;
+	font-weight: bold;
+}
+
+.quadrada li figcaption{
+	font-size: 15px;
+}
+
+ .fdcparatasd li figcaption{
+	font-size: 15px;
+}
+
+@media all and (min-width: 340px){
+	.bl-small{width: 50%;}
+	.bl-large{width: 100%;}
+}
